@@ -1,0 +1,23 @@
+name: FirstFlow
+on:
+  push:
+    branches: 
+      - main
+  workflow_dispatch:
+
+
+jobs:
+  FirstJob:
+    ruruns-on: ubuntu-latest
+    stesteps:
+    defaults:
+      - run: echo "Hai Jaggu"
+
+      - name: Checkout
+        uses: actions/checkout@v4.2.2
+
+      - run : tree
+  
+        
+
+    
