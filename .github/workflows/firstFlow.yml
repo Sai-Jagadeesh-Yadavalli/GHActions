@@ -8,7 +8,7 @@ on:
 
 jobs:
   FirstJob:
-    ruruns-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - run: echo "Hai Jaggu"
 
