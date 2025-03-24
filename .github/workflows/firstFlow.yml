@@ -9,8 +9,7 @@ on:
 jobs:
   FirstJob:
     ruruns-on: ubuntu-latest
-    stesteps:
-    defaults:
+    steps:
       - run: echo "Hai Jaggu"
 
       - name: Checkout
